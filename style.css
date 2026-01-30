@@ -138,9 +138,6 @@ nav ul li {
     .songItemsPlay {
         padding: 0px 8px;
     }
-    .song-info {
-        display: none;
-    }
 }   
 
 /*laptop & PC Screen */
@@ -153,8 +150,5 @@ nav ul li {
     }
     .songItemsPlay {
         padding: 0px 8px;
-    }
-    .song-info {
-        display: none;
     }
 }   
