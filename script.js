@@ -115,15 +115,13 @@ masterPlay.addEventListener("click", () => {
 // progress
 audioElement.addEventListener("timeupdate", () => {
     if (!isNaN(audioElement.duration)) {
-        progressBar.value =
-            (audioElement.currentTime / audioElement.duration) * 100;
+        progressBar.value = (audioElement.currentTime / audioElement.duration) * 100;
         start[0].innerText = songDuration(audioElement.currentTime);
     }
 });
 
 progressBar.addEventListener("change", () => {
-    audioElement.currentTime =
-        (progressBar.value * audioElement.duration) / 100;
+    audioElement.currentTime = (progressBar.value * audioElement.duration) / 100;
 });
 
 // previous
