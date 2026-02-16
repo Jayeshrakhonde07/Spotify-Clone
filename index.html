@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone </title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="/Spotify-logo.png">
+</head>
+<body>
+ 
+    <nav>
+        <ul>
+            <li class="brandName"><img src="/Spotify-logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="song-Container">
+        <h3>best of - No Coperight Sounds</h3>
+        <div class="song-list">
+            <div class="songitems">
+                <img  alt="image">
+                <span class="song-title"></span>
+                <span class="song-length"></span>
+                <span><i class="fa-solid songItemsPlay fa-2x fa-circle-play" id="0"></i></span>
+            </div>
+            <div class="songitems">
+                <img  alt="image">
+                <span class="song-title"></span>
+                <span class="song-length"></span>
+                <span><i class="fa-solid songItemsPlay fa-2x fa-circle-play" id="1"></i></span>
+            </div>
+            <div class="songitems">
+                <img  alt="image">
+                <span class="song-title"></span>
+                <span class="song-length"></span>
+                <span><i class="fa-solid songItemsPlay fa-2x fa-circle-play" id="2"></i></span>
+            </div>
+            <div class="songitems">
+                <img  alt="image">
+                <span class="song-title"></span>
+                <span class="song-length"></span>
+                <span><i class="fa-solid songItemsPlay fa-2x fa-circle-play" id="3"></i></span>
+            </div>
+            <div class="songitems">
+                <img  alt="image">
+                <span class="song-title"></span>
+                <span class="song-length"></span>
+                <span><i class="fa-solid songItemsPlay fa-2x fa-circle-play" id="4"></i></span>
+            </div>
+            <div class="songitems">
+                <img  alt="image">
+                <span class="song-title"></span>
+                <span class="song-length"></span>
+                <span><i class="fa-solid songItemsPlay fa-2x fa-circle-play" id="5"></i></span>
+            </div>
+            <div class="songitems">
+                <img  alt="image">
+                <span class="song-title"></span>
+                <span class="song-length"></span>
+                <span><i class="fa-solid songItemsPlay fa-2x fa-circle-play" id="6"></i></span>
+            </div>
+            <div class="songitems">
+                <img  alt="image">
+                <span class="song-title"></span>
+                <span class="song-length"></span>
+                <span><i class="fa-solid songItemsPlay fa-2x fa-circle-play" id="7"></i></span>
+            </div>
+    
+    
+        </div>
+    </div>
+
+    <div class="song-Control">
+        <div class="song-info-control">
+            <span class="song-start">00:00</span>
+            <input type="range" name="progressbar" id="progressbar"  value="0" min="0" max="100">
+            <span class="song-end">00:00</span>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="master"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="song-info">
+            <img src="/playing-gif.gif" alt="gif" id="gif">
+            <span class="song-master-title"></span>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
+
+
+
